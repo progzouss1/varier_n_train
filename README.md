@@ -67,4 +67,3 @@ nohup python run_sweep.py --regime R2 --workers 8 > sweep_R2.log 2>&1 &
 ```
 Puis ouvrir le notebook (`RUN_R1 = RUN_R2 = False` pour ne faire que relire le cache).
 Résultats : `cache/sweep/results/{R1,R2,comparaison}/` (CSV, JSON, PNG).
-# varier_n_train
