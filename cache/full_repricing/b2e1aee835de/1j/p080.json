@@ -1,0 +1,16 @@
+{
+ "id": 80,
+ "d": 20,
+ "stage": "1j",
+ "n": 10000,
+ "n_paths": 100000,
+ "seed": 98765,
+ "t_pricing_sum": 534.0925390070515,
+ "t_pricing_mean": 0.05340925390070515,
+ "t_pricing_median": 0.052105114998994395,
+ "t_pricing_max": 0.13794206300008227,
+ "t_wall_last_session": 534.4944565920014,
+ "resumed_from": 0,
+ "timestamp": "2026-09-29T04:16:55",
+ "host": "Oussama"
+}

@@ -1,0 +1,917 @@
+{
+ "pricer": "unit-noCRN-sameseed-v1",
+ "n_paths": 100000,
+ "seed_pricing": 98765,
+ "n_scenarios": 10000,
+ "horizons": {
+  "1j": 0.003968253968253968,
+  "10j": 0.03968253968253968
+ },
+ "scenarios_dir": "cache/scenarios/238c57ffe7ce",
+ "products": [
+  {
+   "id": 1,
+   "d": 5,
+   "type": "geo",
+   "callput": 0,
+   "strike": 91.49385196330245,
+   "maturity": 1.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 2,
+   "d": 5,
+   "type": "geo",
+   "callput": 0,
+   "strike": 96.57684373904146,
+   "maturity": 2.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 3,
+   "d": 5,
+   "type": "geo",
+   "callput": 0,
+   "strike": 101.6598355147805,
+   "maturity": 3.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 4,
+   "d": 5,
+   "type": "geo",
+   "callput": 1,
+   "strike": 106.74282729051953,
+   "maturity": 4.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 5,
+   "d": 5,
+   "type": "geo",
+   "callput": 1,
+   "strike": 111.82581906625856,
+   "maturity": 5.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 6,
+   "d": 5,
+   "type": "basket",
+   "callput": 0,
+   "strike": 91.5,
+   "maturity": 1.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 7,
+   "d": 5,
+   "type": "basket",
+   "callput": 0,
+   "strike": 96.58333333333331,
+   "maturity": 2.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 8,
+   "d": 5,
+   "type": "basket",
+   "callput": 0,
+   "strike": 101.66666666666666,
+   "maturity": 3.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 9,
+   "d": 5,
+   "type": "basket",
+   "callput": 1,
+   "strike": 106.75,
+   "maturity": 4.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 10,
+   "d": 5,
+   "type": "basket",
+   "callput": 1,
+   "strike": 111.83333333333333,
+   "maturity": 5.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 11,
+   "d": 5,
+   "type": "BO",
+   "callput": 0,
+   "strike": 93.0,
+   "maturity": 1.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 12,
+   "d": 5,
+   "type": "BO",
+   "callput": 0,
+   "strike": 98.16666666666666,
+   "maturity": 2.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 13,
+   "d": 5,
+   "type": "BO",
+   "callput": 0,
+   "strike": 103.33333333333333,
+   "maturity": 3.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 14,
+   "d": 5,
+   "type": "BO",
+   "callput": 1,
+   "strike": 108.5,
+   "maturity": 4.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 15,
+   "d": 5,
+   "type": "BO",
+   "callput": 1,
+   "strike": 113.66666666666667,
+   "maturity": 5.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 16,
+   "d": 5,
+   "type": "WO",
+   "callput": 0,
+   "strike": 90.0,
+   "maturity": 1.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 17,
+   "d": 5,
+   "type": "WO",
+   "callput": 0,
+   "strike": 95.0,
+   "maturity": 2.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 18,
+   "d": 5,
+   "type": "WO",
+   "callput": 0,
+   "strike": 100.0,
+   "maturity": 3.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 19,
+   "d": 5,
+   "type": "WO",
+   "callput": 1,
+   "strike": 105.0,
+   "maturity": 4.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 20,
+   "d": 5,
+   "type": "WO",
+   "callput": 1,
+   "strike": 110.00000000000001,
+   "maturity": 5.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 21,
+   "d": 10,
+   "type": "geo",
+   "callput": 0,
+   "strike": 93.35014215991096,
+   "maturity": 1.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 22,
+   "d": 10,
+   "type": "geo",
+   "callput": 0,
+   "strike": 98.5362611687949,
+   "maturity": 2.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 23,
+   "d": 10,
+   "type": "geo",
+   "callput": 0,
+   "strike": 103.72238017767884,
+   "maturity": 3.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 24,
+   "d": 10,
+   "type": "geo",
+   "callput": 1,
+   "strike": 108.90849918656279,
+   "maturity": 4.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 25,
+   "d": 10,
+   "type": "geo",
+   "callput": 1,
+   "strike": 114.09461819544674,
+   "maturity": 5.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 26,
+   "d": 10,
+   "type": "basket",
+   "callput": 0,
+   "strike": 93.375,
+   "maturity": 1.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 27,
+   "d": 10,
+   "type": "basket",
+   "callput": 0,
+   "strike": 98.5625,
+   "maturity": 2.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 28,
+   "d": 10,
+   "type": "basket",
+   "callput": 0,
+   "strike": 103.75,
+   "maturity": 3.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 29,
+   "d": 10,
+   "type": "basket",
+   "callput": 1,
+   "strike": 108.9375,
+   "maturity": 4.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 30,
+   "d": 10,
+   "type": "basket",
+   "callput": 1,
+   "strike": 114.12500000000001,
+   "maturity": 5.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 31,
+   "d": 10,
+   "type": "BO",
+   "callput": 0,
+   "strike": 96.75,
+   "maturity": 1.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 32,
+   "d": 10,
+   "type": "BO",
+   "callput": 0,
+   "strike": 102.125,
+   "maturity": 2.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 33,
+   "d": 10,
+   "type": "BO",
+   "callput": 0,
+   "strike": 107.5,
+   "maturity": 3.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 34,
+   "d": 10,
+   "type": "BO",
+   "callput": 1,
+   "strike": 112.875,
+   "maturity": 4.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 35,
+   "d": 10,
+   "type": "BO",
+   "callput": 1,
+   "strike": 118.25000000000001,
+   "maturity": 5.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 36,
+   "d": 10,
+   "type": "WO",
+   "callput": 0,
+   "strike": 90.0,
+   "maturity": 1.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 37,
+   "d": 10,
+   "type": "WO",
+   "callput": 0,
+   "strike": 95.0,
+   "maturity": 2.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 38,
+   "d": 10,
+   "type": "WO",
+   "callput": 0,
+   "strike": 100.0,
+   "maturity": 3.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 39,
+   "d": 10,
+   "type": "WO",
+   "callput": 1,
+   "strike": 105.0,
+   "maturity": 4.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 40,
+   "d": 10,
+   "type": "WO",
+   "callput": 1,
+   "strike": 110.00000000000001,
+   "maturity": 5.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 41,
+   "d": 15,
+   "type": "geo",
+   "callput": 0,
+   "strike": 95.19484070448593,
+   "maturity": 1.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 42,
+   "d": 15,
+   "type": "geo",
+   "callput": 0,
+   "strike": 100.48344296584625,
+   "maturity": 2.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 43,
+   "d": 15,
+   "type": "geo",
+   "callput": 0,
+   "strike": 105.77204522720659,
+   "maturity": 3.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 44,
+   "d": 15,
+   "type": "geo",
+   "callput": 1,
+   "strike": 111.06064748856693,
+   "maturity": 4.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 45,
+   "d": 15,
+   "type": "geo",
+   "callput": 1,
+   "strike": 116.34924974992725,
+   "maturity": 5.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 46,
+   "d": 15,
+   "type": "basket",
+   "callput": 0,
+   "strike": 95.25,
+   "maturity": 1.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 47,
+   "d": 15,
+   "type": "basket",
+   "callput": 0,
+   "strike": 100.54166666666666,
+   "maturity": 2.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 48,
+   "d": 15,
+   "type": "basket",
+   "callput": 0,
+   "strike": 105.83333333333333,
+   "maturity": 3.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 49,
+   "d": 15,
+   "type": "basket",
+   "callput": 1,
+   "strike": 111.125,
+   "maturity": 4.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 50,
+   "d": 15,
+   "type": "basket",
+   "callput": 1,
+   "strike": 116.41666666666667,
+   "maturity": 5.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 51,
+   "d": 15,
+   "type": "BO",
+   "callput": 0,
+   "strike": 100.5,
+   "maturity": 1.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 52,
+   "d": 15,
+   "type": "BO",
+   "callput": 0,
+   "strike": 106.08333333333333,
+   "maturity": 2.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 53,
+   "d": 15,
+   "type": "BO",
+   "callput": 0,
+   "strike": 111.66666666666667,
+   "maturity": 3.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 54,
+   "d": 15,
+   "type": "BO",
+   "callput": 1,
+   "strike": 117.25000000000001,
+   "maturity": 4.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 55,
+   "d": 15,
+   "type": "BO",
+   "callput": 1,
+   "strike": 122.83333333333334,
+   "maturity": 5.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 56,
+   "d": 15,
+   "type": "WO",
+   "callput": 0,
+   "strike": 90.0,
+   "maturity": 1.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 57,
+   "d": 15,
+   "type": "WO",
+   "callput": 0,
+   "strike": 95.0,
+   "maturity": 2.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 58,
+   "d": 15,
+   "type": "WO",
+   "callput": 0,
+   "strike": 100.0,
+   "maturity": 3.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 59,
+   "d": 15,
+   "type": "WO",
+   "callput": 1,
+   "strike": 105.0,
+   "maturity": 4.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 60,
+   "d": 15,
+   "type": "WO",
+   "callput": 1,
+   "strike": 110.00000000000001,
+   "maturity": 5.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 61,
+   "d": 20,
+   "type": "geo",
+   "callput": 0,
+   "strike": 97.02859237664119,
+   "maturity": 1.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 62,
+   "d": 20,
+   "type": "geo",
+   "callput": 0,
+   "strike": 102.41906973089901,
+   "maturity": 2.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 63,
+   "d": 20,
+   "type": "geo",
+   "callput": 0,
+   "strike": 107.80954708515686,
+   "maturity": 3.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 64,
+   "d": 20,
+   "type": "geo",
+   "callput": 1,
+   "strike": 113.20002443941472,
+   "maturity": 4.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 65,
+   "d": 20,
+   "type": "geo",
+   "callput": 1,
+   "strike": 118.59050179367256,
+   "maturity": 5.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 66,
+   "d": 20,
+   "type": "basket",
+   "callput": 0,
+   "strike": 97.125,
+   "maturity": 1.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 67,
+   "d": 20,
+   "type": "basket",
+   "callput": 0,
+   "strike": 102.52083333333333,
+   "maturity": 2.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 68,
+   "d": 20,
+   "type": "basket",
+   "callput": 0,
+   "strike": 107.91666666666667,
+   "maturity": 3.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 69,
+   "d": 20,
+   "type": "basket",
+   "callput": 1,
+   "strike": 113.31250000000001,
+   "maturity": 4.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 70,
+   "d": 20,
+   "type": "basket",
+   "callput": 1,
+   "strike": 118.70833333333334,
+   "maturity": 5.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 71,
+   "d": 20,
+   "type": "BO",
+   "callput": 0,
+   "strike": 104.25,
+   "maturity": 1.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 72,
+   "d": 20,
+   "type": "BO",
+   "callput": 0,
+   "strike": 110.04166666666666,
+   "maturity": 2.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 73,
+   "d": 20,
+   "type": "BO",
+   "callput": 0,
+   "strike": 115.83333333333333,
+   "maturity": 3.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 74,
+   "d": 20,
+   "type": "BO",
+   "callput": 1,
+   "strike": 121.625,
+   "maturity": 4.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 75,
+   "d": 20,
+   "type": "BO",
+   "callput": 1,
+   "strike": 127.41666666666667,
+   "maturity": 5.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 76,
+   "d": 20,
+   "type": "WO",
+   "callput": 0,
+   "strike": 90.0,
+   "maturity": 1.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 77,
+   "d": 20,
+   "type": "WO",
+   "callput": 0,
+   "strike": 95.0,
+   "maturity": 2.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 78,
+   "d": 20,
+   "type": "WO",
+   "callput": 0,
+   "strike": 100.0,
+   "maturity": 3.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 79,
+   "d": 20,
+   "type": "WO",
+   "callput": 1,
+   "strike": 105.0,
+   "maturity": 4.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 80,
+   "d": 20,
+   "type": "WO",
+   "callput": 1,
+   "strike": 110.00000000000001,
+   "maturity": 5.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 81,
+   "d": 25,
+   "type": "geo",
+   "callput": 0,
+   "strike": 98.85198585517568,
+   "maturity": 1.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 82,
+   "d": 25,
+   "type": "geo",
+   "callput": 0,
+   "strike": 104.34376284712988,
+   "maturity": 2.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 83,
+   "d": 25,
+   "type": "geo",
+   "callput": 0,
+   "strike": 109.83553983908409,
+   "maturity": 3.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 84,
+   "d": 25,
+   "type": "geo",
+   "callput": 1,
+   "strike": 115.3273168310383,
+   "maturity": 4.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 85,
+   "d": 25,
+   "type": "geo",
+   "callput": 1,
+   "strike": 120.81909382299251,
+   "maturity": 5.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 86,
+   "d": 25,
+   "type": "basket",
+   "callput": 0,
+   "strike": 99.0,
+   "maturity": 1.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 87,
+   "d": 25,
+   "type": "basket",
+   "callput": 0,
+   "strike": 104.5,
+   "maturity": 2.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 88,
+   "d": 25,
+   "type": "basket",
+   "callput": 0,
+   "strike": 110.0,
+   "maturity": 3.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 89,
+   "d": 25,
+   "type": "basket",
+   "callput": 1,
+   "strike": 115.5,
+   "maturity": 4.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 90,
+   "d": 25,
+   "type": "basket",
+   "callput": 1,
+   "strike": 121.00000000000001,
+   "maturity": 5.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 91,
+   "d": 25,
+   "type": "BO",
+   "callput": 0,
+   "strike": 108.0,
+   "maturity": 1.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 92,
+   "d": 25,
+   "type": "BO",
+   "callput": 0,
+   "strike": 114.0,
+   "maturity": 2.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 93,
+   "d": 25,
+   "type": "BO",
+   "callput": 0,
+   "strike": 120.0,
+   "maturity": 3.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 94,
+   "d": 25,
+   "type": "BO",
+   "callput": 1,
+   "strike": 126.0,
+   "maturity": 4.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 95,
+   "d": 25,
+   "type": "BO",
+   "callput": 1,
+   "strike": 132.0,
+   "maturity": 5.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 96,
+   "d": 25,
+   "type": "WO",
+   "callput": 0,
+   "strike": 90.0,
+   "maturity": 1.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 97,
+   "d": 25,
+   "type": "WO",
+   "callput": 0,
+   "strike": 95.0,
+   "maturity": 2.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 98,
+   "d": 25,
+   "type": "WO",
+   "callput": 0,
+   "strike": 100.0,
+   "maturity": 3.0,
+   "nominal": 1.0
+  },
+  {
+   "id": 99,
+   "d": 25,
+   "type": "WO",
+   "callput": 1,
+   "strike": 105.0,
+   "maturity": 4.0,
+   "nominal": -1.0
+  },
+  {
+   "id": 100,
+   "d": 25,
+   "type": "WO",
+   "callput": 1,
+   "strike": 110.00000000000001,
+   "maturity": 5.0,
+   "nominal": -1.0
+  }
+ ],
+ "created": {
+  "timestamp": "2026-09-28T20:38:15",
+  "host": "Oussama"
+ }
+}

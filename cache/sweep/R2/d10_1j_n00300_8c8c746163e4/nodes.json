@@ -1,0 +1,14 @@
+{
+ "regime": "R2",
+ "n_nodes": 300,
+ "n_products": 20,
+ "n_paths": 100000,
+ "t_nodes": 167.7439867200883,
+ "t_node_mean": 0.5591466224002943,
+ "t_unit_pricing_mean": 0.027957331120014715,
+ "n_distinct_seeds": 6000,
+ "n_workers": 1,
+ "t_wall_last_session": 168.4790469610016,
+ "timestamp": "2026-10-04T18:20:22",
+ "host": "Oussama"
+}

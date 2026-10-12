@@ -1,0 +1,959 @@
+
+
+	At iteration: 9
+	Relative error change training: 1.756e-12
+	Relative error change testing: 4.905e-09
+	Leaving algo
+
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 1, 1, 1, 1, 1]
+
+Trying increase rank 1 from 1 to 2
+
+
+	At iteration: 5
+	Relative error change training: 4.309e-11
+	Relative error change testing: 9.906e-09
+	Leaving algo
+
+
+Current train cost: 2.423e-01
+Current validation cost: 2.222e-01
+
+Error improvement of 7.290e-04 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 1
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 1, 1, 1, 1, 1]
+
+Trying increase rank 2 from 1 to 2
+
+
+	At iteration: 15
+	Relative error change training: 4.666e-16
+	Relative error change testing: 4.954e-09
+	Leaving algo
+
+
+Current train cost: 2.379e-01
+Current validation cost: 2.340e-01
+
+Error improvement of 1.258e-02 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 2
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 1, 1, 1, 1, 1]
+
+Trying increase rank 3 from 1 to 2
+
+
+	At iteration: 12
+	Relative error change training: 1.984e-13
+	Relative error change testing: 6.662e-09
+	Leaving algo
+
+
+Current train cost: 2.351e-01
+Current validation cost: 2.057e-01
+
+Error improvement of -1.573e-02 in rank increase attempt
+
+SUCCEEDED with completion algo. Updating to new tensor
+
+Current max rank 2
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 1, 1, 2, 1, 1]
+
+Trying increase rank 4 from 1 to 2
+
+
+	At iteration: 19
+	Relative error change training: 2.733e-16
+	Relative error change testing: 6.663e-09
+	Leaving algo
+
+
+Current train cost: 2.031e-01
+Current validation cost: 1.994e-01
+
+Error improvement of -6.323e-03 in rank increase attempt
+
+SUCCEEDED with completion algo. Updating to new tensor
+
+Current max rank 2
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 1, 1, 2, 2, 1]
+
+Trying increase rank 1 from 1 to 2
+
+
+	At iteration: 18
+	Relative error change training: 1.288e-15
+	Relative error change testing: 8.328e-09
+	Leaving algo
+
+
+Current train cost: 1.940e-01
+Current validation cost: 1.958e-01
+
+Error improvement of -3.643e-03 in rank increase attempt
+
+SUCCEEDED with completion algo. Updating to new tensor
+
+Current max rank 2
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 1, 2, 2, 1]
+
+Trying increase rank 2 from 1 to 2
+
+
+	At iteration: 17
+	Relative error change training: 4.021e-15
+	Relative error change testing: 4.890e-09
+	Leaving algo
+
+
+Current train cost: 7.766e-03
+Current validation cost: 9.928e-03
+
+Error improvement of -1.858e-01 in rank increase attempt
+
+SUCCEEDED with completion algo. Updating to new tensor
+
+Current max rank 2
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 2, 1]
+
+Trying increase rank 3 from 2 to 3
+
+Current train cost: 7.444e-03
+Current validation cost: 1.064e-02
+
+Error improvement of 7.096e-04 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 1
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 2, 1]
+
+Trying increase rank 4 from 2 to 3
+
+Current train cost: 7.532e-03
+Current validation cost: 1.105e-02
+
+Error improvement of 1.117e-03 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 2
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 2, 1]
+
+Trying increase rank 1 from 2 to 3
+
+Current train cost: 7.631e-03
+Current validation cost: 9.990e-03
+
+Error improvement of 6.146e-05 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 3
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 2, 1]
+
+Trying increase rank 2 from 2 to 3
+
+Current train cost: 7.453e-03
+Current validation cost: 1.177e-02
+
+Error improvement of 1.839e-03 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 4
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 2, 1]
+
+Trying increase rank 3 from 2 to 3
+
+Current train cost: 7.444e-03
+Current validation cost: 1.063e-02
+
+Error improvement of 7.011e-04 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 5
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 2, 1]
+
+Trying increase rank 4 from 2 to 3
+
+Current train cost: 7.532e-03
+Current validation cost: 1.105e-02
+
+Error improvement of 1.117e-03 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 6
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 2, 1]
+
+Trying increase rank 1 from 2 to 3
+
+Current train cost: 7.631e-03
+Current validation cost: 9.990e-03
+
+Error improvement of 6.145e-05 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 7
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 2, 1]
+
+Trying increase rank 2 from 2 to 3
+
+Current train cost: 7.453e-03
+Current validation cost: 1.177e-02
+
+Error improvement of 1.840e-03 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 8
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 2, 1]
+
+Trying increase rank 3 from 2 to 3
+
+Current train cost: 7.444e-03
+Current validation cost: 1.052e-02
+
+Error improvement of 5.894e-04 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 9
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 2, 1]
+
+Trying increase rank 4 from 2 to 3
+
+Current train cost: 7.532e-03
+Current validation cost: 1.105e-02
+
+Error improvement of 1.117e-03 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 10
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 2, 1]
+
+Trying increase rank 1 from 2 to 3
+
+Current train cost: 7.631e-03
+Current validation cost: 9.988e-03
+
+Error improvement of 5.973e-05 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 11
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 2, 1]
+
+Trying increase rank 2 from 2 to 3
+
+Current train cost: 7.453e-03
+Current validation cost: 1.177e-02
+
+Error improvement of 1.840e-03 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 12
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 2, 1]
+
+Trying increase rank 3 from 2 to 3
+
+Current train cost: 7.444e-03
+Current validation cost: 1.066e-02
+
+Error improvement of 7.278e-04 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 13
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 2, 1]
+
+Trying increase rank 4 from 2 to 3
+
+Current train cost: 7.532e-03
+Current validation cost: 1.105e-02
+
+Error improvement of 1.117e-03 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 14
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 2, 1]
+
+Trying increase rank 1 from 2 to 3
+
+Current train cost: 7.631e-03
+Current validation cost: 9.989e-03
+
+Error improvement of 6.096e-05 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 15
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 2, 1]
+
+Trying increase rank 2 from 2 to 3
+
+Current train cost: 7.453e-03
+Current validation cost: 1.177e-02
+
+Error improvement of 1.840e-03 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 16
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 2, 1]
+
+Trying increase rank 3 from 2 to 3
+
+Current train cost: 7.444e-03
+Current validation cost: 1.051e-02
+
+Error improvement of 5.837e-04 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 17
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 2, 1]
+
+Trying increase rank 4 from 2 to 3
+
+Current train cost: 7.532e-03
+Current validation cost: 1.105e-02
+
+Error improvement of 1.117e-03 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 18
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 2, 1]
+
+Trying increase rank 1 from 2 to 3
+
+Current train cost: 7.631e-03
+Current validation cost: 9.990e-03
+
+Error improvement of 6.157e-05 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 19
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 2, 1]
+
+Trying increase rank 2 from 2 to 3
+
+Current train cost: 7.453e-03
+Current validation cost: 1.177e-02
+
+Error improvement of 1.840e-03 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 20
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 2, 1]
+
+Trying increase rank 3 from 2 to 3
+
+Current train cost: 7.444e-03
+Current validation cost: 1.049e-02
+
+Error improvement of 5.574e-04 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 21
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 2, 1]
+
+Trying increase rank 4 from 2 to 3
+
+Current train cost: 7.590e-03
+Current validation cost: 9.914e-03
+
+Error improvement of -1.430e-05 in rank increase attempt
+
+SUCCEEDED with completion algo. Updating to new tensor
+
+Current max rank 3
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 3, 1]
+
+Trying increase rank 1 from 2 to 3
+
+Current train cost: 7.441e-03
+Current validation cost: 1.001e-02
+
+Error improvement of 9.458e-05 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 1
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 3, 1]
+
+Trying increase rank 2 from 2 to 3
+
+Current train cost: 7.241e-03
+Current validation cost: 1.232e-02
+
+Error improvement of 2.403e-03 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 2
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 3, 1]
+
+Trying increase rank 3 from 2 to 3
+
+Current train cost: 6.945e-03
+Current validation cost: 1.033e-02
+
+Error improvement of 4.119e-04 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 3
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 3, 1]
+
+Trying increase rank 4 from 3 to 4
+
+Current train cost: 7.368e-03
+Current validation cost: 1.104e-02
+
+Error improvement of 1.125e-03 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 4
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 3, 1]
+
+Trying increase rank 1 from 2 to 3
+
+Current train cost: 7.441e-03
+Current validation cost: 1.005e-02
+
+Error improvement of 1.333e-04 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 5
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 3, 1]
+
+Trying increase rank 2 from 2 to 3
+
+Current train cost: 7.241e-03
+Current validation cost: 1.236e-02
+
+Error improvement of 2.448e-03 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 6
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 3, 1]
+
+Trying increase rank 3 from 2 to 3
+
+Current train cost: 7.095e-03
+Current validation cost: 1.045e-02
+
+Error improvement of 5.315e-04 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 7
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 3, 1]
+
+Trying increase rank 4 from 3 to 4
+
+Current train cost: 7.368e-03
+Current validation cost: 1.104e-02
+
+Error improvement of 1.125e-03 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 8
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 3, 1]
+
+Trying increase rank 1 from 2 to 3
+
+Current train cost: 7.441e-03
+Current validation cost: 1.006e-02
+
+Error improvement of 1.494e-04 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 9
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 3, 1]
+
+Trying increase rank 2 from 2 to 3
+
+Current train cost: 7.264e-03
+Current validation cost: 1.170e-02
+
+Error improvement of 1.788e-03 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 10
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 3, 1]
+
+Trying increase rank 3 from 2 to 3
+
+Current train cost: 6.945e-03
+Current validation cost: 1.033e-02
+
+Error improvement of 4.179e-04 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 11
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 3, 1]
+
+Trying increase rank 4 from 3 to 4
+
+Current train cost: 7.368e-03
+Current validation cost: 1.104e-02
+
+Error improvement of 1.125e-03 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 12
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 3, 1]
+
+Trying increase rank 1 from 2 to 3
+
+Current train cost: 7.441e-03
+Current validation cost: 1.014e-02
+
+Error improvement of 2.231e-04 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 13
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 3, 1]
+
+Trying increase rank 2 from 2 to 3
+
+Current train cost: 7.241e-03
+Current validation cost: 1.233e-02
+
+Error improvement of 2.414e-03 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 14
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 3, 1]
+
+Trying increase rank 3 from 2 to 3
+
+Current train cost: 6.948e-03
+Current validation cost: 1.026e-02
+
+Error improvement of 3.461e-04 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 15
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 3, 1]
+
+Trying increase rank 4 from 3 to 4
+
+Current train cost: 7.368e-03
+Current validation cost: 1.104e-02
+
+Error improvement of 1.125e-03 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 16
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 3, 1]
+
+Trying increase rank 1 from 2 to 3
+
+Current train cost: 7.441e-03
+Current validation cost: 1.006e-02
+
+Error improvement of 1.460e-04 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 17
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 3, 1]
+
+Trying increase rank 2 from 2 to 3
+
+Current train cost: 7.336e-03
+Current validation cost: 1.042e-02
+
+Error improvement of 5.049e-04 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 18
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 3, 1]
+
+Trying increase rank 3 from 2 to 3
+
+Current train cost: 7.081e-03
+Current validation cost: 1.063e-02
+
+Error improvement of 7.159e-04 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 19
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 3, 1]
+
+Trying increase rank 4 from 3 to 4
+
+Current train cost: 7.368e-03
+Current validation cost: 1.104e-02
+
+Error improvement of 1.125e-03 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 20
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 3, 1]
+
+Trying increase rank 1 from 2 to 3
+
+Current train cost: 7.441e-03
+Current validation cost: 1.006e-02
+
+Error improvement of 1.444e-04 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 21
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 3, 1]
+
+Trying increase rank 2 from 2 to 3
+
+Current train cost: 7.282e-03
+Current validation cost: 1.142e-02
+
+Error improvement of 1.509e-03 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 22
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 3, 1]
+
+Trying increase rank 3 from 2 to 3
+
+Current train cost: 7.008e-03
+Current validation cost: 1.236e-02
+
+Error improvement of 2.444e-03 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 23
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 3, 1]
+
+Trying increase rank 4 from 3 to 4
+
+Current train cost: 7.368e-03
+Current validation cost: 1.104e-02
+
+Error improvement of 1.125e-03 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 24
+_________________________________________
+
+Current tensor: 
+Tensor train with order    = 5, 
+                  row_dims = [6, 6, 6, 6, 6], 
+                  col_dims = [1, 1, 1, 1, 1], 
+                  ranks    = [1, 2, 2, 2, 3, 1]
+
+Trying increase rank 1 from 2 to 3
+
+Current train cost: 7.440e-03
+Current validation cost: 1.010e-02
+
+Error improvement of 1.814e-04 in rank increase attempt
+
+FAILED with completion algo. Reverting to old tensor
+Current round: 25
+_________________________________________
+
+EXIT RANK ADAPTIVE AS CURR_ROUND 25 EXCEEDED MAX LOCKS 25
+

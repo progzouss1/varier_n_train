@@ -1,0 +1,22 @@
+{
+ "timestamp": "2026-10-04T20:29:32",
+ "host": "Oussama",
+ "status": "failed",
+ "error": "TTFitError: Tous les restarts ALS ont echoue.",
+ "diag": {
+  "restart_val_errs": [
+   Infinity
+  ],
+  "restart_ranks": [
+   null
+  ],
+  "restart_errors": [
+   "SystemError: <class 'numpy.linalg.LinAlgError'> returned a result with an error set"
+  ],
+  "t_extension_each": [
+   68.51472586799355
+  ],
+  "t_extension": 69.26308708600118
+ },
+ "traceback": "Traceback (most recent call last):\n  File \"/home/oussama/projet/sweep.py\", line 252, in _fit_eval\n    obj, eval_fn, times, info = fit_tt(me, box, tt, pts, vals, verbose=False)\n  File \"/home/oussama/projet/mocax_tt.py\", line 209, in fit_tt\n    raise TTFitError(\"Tous les restarts ALS ont echoue.\", diag)\nmocax_tt.TTFitError: Tous les restarts ALS ont echoue.\n"
+}

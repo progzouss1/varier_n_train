@@ -1,0 +1,22 @@
+{
+ "timestamp": "2026-10-05T05:49:06",
+ "host": "Oussama",
+ "status": "failed",
+ "error": "TTFitError: Tous les restarts ALS ont echoue.",
+ "diag": {
+  "restart_val_errs": [
+   Infinity
+  ],
+  "restart_ranks": [
+   null
+  ],
+  "restart_errors": [
+   "ValueError: could not broadcast input array from shape (2,7) into shape (2,6)"
+  ],
+  "t_extension_each": [
+   344.9939787669864
+  ],
+  "t_extension": 347.7956211139972
+ },
+ "traceback": "Traceback (most recent call last):\n  File \"/home/oussama/projet/sweep.py\", line 252, in _fit_eval\n    obj, eval_fn, times, info = fit_tt(me, box, tt, pts, vals, verbose=False)\n  File \"/home/oussama/projet/mocax_tt.py\", line 209, in fit_tt\n    raise TTFitError(\"Tous les restarts ALS ont echoue.\", diag)\nmocax_tt.TTFitError: Tous les restarts ALS ont echoue.\n"
+}

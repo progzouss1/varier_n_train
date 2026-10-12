@@ -1,0 +1,6 @@
+{
+ "n_train_req": 1500,
+ "n_train": 1500,
+ "n_train_unique": 1500,
+ "tensor_size": 60466176
+}
